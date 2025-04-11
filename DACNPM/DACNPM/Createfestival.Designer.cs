@@ -58,6 +58,7 @@
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -135,6 +136,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button22);
             this.groupBox1.Controls.Add(this.button21);
             this.groupBox1.Location = new System.Drawing.Point(502, 47);
             this.groupBox1.Name = "groupBox1";
@@ -332,6 +334,15 @@
             this.button21.Text = "button21";
             this.button21.UseVisualStyleBackColor = true;
             // 
+            // button22
+            // 
+            this.button22.Location = new System.Drawing.Point(32, 73);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(75, 23);
+            this.button22.TabIndex = 1;
+            this.button22.Text = "button22";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
             // Createfestival
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -406,5 +417,6 @@
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button22;
     }
 }
