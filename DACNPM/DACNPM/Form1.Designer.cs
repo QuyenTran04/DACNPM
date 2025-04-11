@@ -67,6 +67,7 @@
             this.button26 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -410,11 +411,21 @@
             this.button28.Text = "button28";
             this.button28.UseVisualStyleBackColor = true;
             // 
+            // button29
+            // 
+            this.button29.Location = new System.Drawing.Point(306, 0);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(75, 23);
+            this.button29.TabIndex = 37;
+            this.button29.Text = "button29";
+            this.button29.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button29);
             this.Controls.Add(this.button28);
             this.Controls.Add(this.button27);
             this.Controls.Add(this.button26);
@@ -501,6 +512,7 @@
         private System.Windows.Forms.Button button26;
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button button29;
     }
 }
 
