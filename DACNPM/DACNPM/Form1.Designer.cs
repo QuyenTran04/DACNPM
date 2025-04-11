@@ -66,6 +66,7 @@
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.button26 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -393,18 +394,28 @@
             // 
             // button27
             // 
-            this.button27.Location = new System.Drawing.Point(731, 141);
+            this.button27.Location = new System.Drawing.Point(734, 141);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(8, 8);
             this.button27.TabIndex = 35;
             this.button27.Text = "button27";
             this.button27.UseVisualStyleBackColor = true;
             // 
+            // button28
+            // 
+            this.button28.Location = new System.Drawing.Point(325, 13);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(75, 23);
+            this.button28.TabIndex = 36;
+            this.button28.Text = "button28";
+            this.button28.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button28);
             this.Controls.Add(this.button27);
             this.Controls.Add(this.button26);
             this.Controls.Add(this.checkBox7);
@@ -489,6 +500,7 @@
         private System.Windows.Forms.CheckBox checkBox7;
         private System.Windows.Forms.Button button26;
         private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Button button28;
     }
 }
 
