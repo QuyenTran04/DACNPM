@@ -39,6 +39,7 @@
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -126,11 +127,21 @@
             this.comboBox1.Size = new System.Drawing.Size(125, 21);
             this.comboBox1.TabIndex = 8;
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(320, 395);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 9;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.button4);
@@ -160,6 +171,7 @@
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button5;
     }
 }
 
