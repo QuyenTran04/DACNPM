@@ -64,6 +64,8 @@
             this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -378,12 +380,33 @@
             this.checkBox7.TabIndex = 33;
             this.checkBox7.Text = "checkBox7";
             this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBox7.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
+            // 
+            // button26
+            // 
+            this.button26.Location = new System.Drawing.Point(681, 206);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(75, 23);
+            this.button26.TabIndex = 34;
+            this.button26.Text = "button26";
+            this.button26.UseVisualStyleBackColor = true;
+            // 
+            // button27
+            // 
+            this.button27.Location = new System.Drawing.Point(731, 141);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(8, 8);
+            this.button27.TabIndex = 35;
+            this.button27.Text = "button27";
+            this.button27.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button27);
+            this.Controls.Add(this.button26);
             this.Controls.Add(this.checkBox7);
             this.Controls.Add(this.button25);
             this.Controls.Add(this.button24);
@@ -464,6 +487,8 @@
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button button27;
     }
 }
 

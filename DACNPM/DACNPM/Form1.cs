@@ -16,5 +16,10 @@ namespace DACNPM
         {
             InitializeComponent();
         }
+
+        private void checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
